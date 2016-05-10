@@ -1,9 +1,9 @@
 var WeatherEntry = Backbone.Model.extend({
-
+  //Declare the 'shape' of the model:
   defaults: {
-    zipcode: '',
-    city: '',
-    weather: '',
+    zipcode: '', // leave blank as will come from user
+    city: '', // leave blank -> based on zip code
+    weather: '', // leave blank -> derived from weather
     unit: '°F'
   },
 
